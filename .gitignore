@@ -1,0 +1,29 @@
+# Unwanted / Archive folder
+Unwanted/
+
+# Large Model Weights & Archives (exceeds GitHub 100MB limit)
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.zip
+*.tar.gz
+
+# Datasets & Outputs
+data/
+outputs/
+
+# Python & Jupyter Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
